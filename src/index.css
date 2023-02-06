@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  @apply bg-background-total bg-cover;
+  -webkit-font-smoothing: antialiased;
+  scrollbar-width: thin;          /* "auto" or "thin" */
+  scrollbar-color: blue orange; 
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
